@@ -1,4 +1,4 @@
-export function stockMarketFee() {
+function stockMarketFee() {
     let saldoTotal = 0.00;
     let quantidadeDeAcoesTotal = 0;
     let mediaPonderada = 0.00;
@@ -54,3 +54,5 @@ export function stockMarketFee() {
         },
     }
 }
+
+module.exports = { stockMarketFee };
